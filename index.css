@@ -1,0 +1,145 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rancho&display=swap');
+
+body{
+background-color: #086375 ; margin: 0px; scroll-behavior: smooth;
+}
+div.menu{
+	position: fixed; background-color: #022F40; width: 100%; height: 100px; top: 0px; z-index: 2;
+}
+
+div.logo{
+	position: absolute; width: 80px; height: 80px; background-color: transparent; left: 30px; top: 5px; z-index:3
+}
+div.kb{
+	position: absolute; height: 30px; width: 500px; top: 30px; left: 150px;  z-index: 4;
+}
+div.but1{
+	position: absolute; background-color: transparent; height: 30px;; width: 120px;text-align: center; color: white; padding-top: 10px; transition: 0.5s;  z-index: 5;
+}
+div.but2{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 140px;transition: 0.5s; z-index: 5;
+}
+div.but3{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 280px;transition: 0.5s; z-index: 5; top: -5px;
+}
+div.but4{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 420px;transition: 0.5s; z-index: 5;
+}
+div.but5{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 560px;transition: 0.5s; z-index: 5;
+}
+div.but6{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 700px;transition: 0.5s; z-index: 5;top: -5px;
+}
+div.but7{
+	position: absolute; background-color: transparent; height: 30px; border-radius: 20px; width: 120px;text-align: center; color: white; padding-top: 10px; left: 840px;transition: 0.5s; z-index: 5;
+}
+div.stopka{
+	position: relative; bottom: 0px; background-color: #0B132B; width: 100%; height: 400px;z-index: 6
+}
+div.kc{
+	position: relative; width: 100%; height: 2400px; background-color: transparent; 
+}
+a.buton{
+	font-family: "Montserrat","sans-serif"; color: white; transition: 0.3s;
+}
+
+a.buton:hover{
+	transition: 0.3s; color: aqua; font-size: 17px;
+}
+
+div.menu2{
+	position: fixed; background-color:#02B098; width: 100px; height: 50px; left: 10px; top: 80px; border-radius: 15px;transition: 0.5s;   z-index:1;
+}
+div.menu2:hover{ height: 300px; transition: 0.5s;}
+img.ar{
+	width: 30px; height: auto; transform: rotate(180deg);
+}
+
+div.menu3{
+	position: fixed; background-color:#02B098; width: 100px; height: 50px; right: 10px; top: 80px; border-radius: 15px;transition: 0.5s;   z-index:1;
+}
+div.back{
+	position: absolute; top: 25px; right: 35px; z-index: 5;
+}
+
+img.logo{
+	height: 90px; width: auto;
+}
+div.napisy{
+	position: absolute; width: 100%; height: 70px; bottom: 50px; text-align: center; color:#175C57; 
+}
+
+div.iframe{
+	position: relative; width: 90%;; right: 5%; top: 15%; height: 75%; bottom: 5%; background-color: darkblue;
+}
+iframe.wys{
+	position: relative; width: 98%; height: 100%; top: 100px; border-color: transparent;
+}
+div.menu2content{
+	position: absolute; background-color: transparent; width: 100px; height: 300px; top: -250px;transition: 0.5s;
+}
+div.menu2content:hover{
+	top: -0px; transition: 0.5s; 
+}
+div.menu2but1{
+position: absolute; background-color: transparent; height: 30px; width: 90px;top: 30px;text-align: center
+}
+a.menu2ankieta{
+	text-align: center; color: white; font-family: "Montserrat","sans-serif";
+}
+a.menu2ankieta:hover{
+	transition: 0.3s; color: aqua; font-size: 17px;
+}
+@media screen and (max-width: 1200px) {
+         img.logo   {
+    	height: 60px;
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but2   {
+    	left: 90px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but3   {
+    	left: 180px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but4   {
+    	left: 270px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but5   {
+    	left: 360px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but6   {
+    	left: 450px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.but7   {
+    	left: 540px
+  }
+}
+@media screen and (max-width: 1200px) {
+         div.kb   {
+    	left: 30px
+  }
+}
+@media screen and (max-width: 600px) {
+        div.but1 div.but2 div.but3 div.but4 div.but5 div.but6 div.but7  {
+    width: 10px;	
+  }
+}
+@media screen and (max-width: 600px) {
+        .button  {
+    font-size: 5px	
+  }
+}
